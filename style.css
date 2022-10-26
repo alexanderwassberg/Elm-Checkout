@@ -1,0 +1,40 @@
+body {
+  background-color: #f3f3f3;
+}
+
+.cart {
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+.cart_row {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+  background-color: white;
+}
+
+.cart_row.disabled {
+  opacity: .5;
+}
+
+.cart_row__right {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.cart_row__price {
+  font-weight: 600
+}
+
+.cart_row__amount {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.cart_row__amount button {
+  width: 30px; height: 30px;
+}
